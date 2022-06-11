@@ -430,8 +430,8 @@ body {
   fill: #000;
 }
 
-.closing-button:hover svg {
-  fill: var(--hover-focus-color);
+.modal__closing-button:hover svg {
+  fill: var(--accent-color);
 }
 
 .backdrop.is-hidden {
@@ -455,7 +455,7 @@ body {
   height: 100%;
 }
 
-.modal__form p {
+.modal__form h2 {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 20px;
@@ -477,19 +477,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
-}
-
-.form-field + .form-field {
-  margin-top: 28px;
-}
-
-.form-field + .textarea {
-  margin-bottom: -8px;
-}
-
-.form-field:last-of-type {
   margin-bottom: 28px;
+  width: 100%;
 }
 
 .form-field svg {
@@ -532,6 +521,10 @@ body {
   color: var(--text-color);
   -ms-flex-item-align: start;
       align-self: flex-start;
+}
+
+.textarea {
+  margin-bottom: 20px;
 }
 
 .form-field__textarea {

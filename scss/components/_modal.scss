@@ -39,8 +39,8 @@
 .closing-button svg {
     fill: #000;
 }
-.closing-button:hover svg {
-    fill: var(--hover-focus-color);
+.modal__closing-button:hover svg {
+    fill: var(--accent-color);
 }
 .backdrop.is-hidden {
     opacity: 0;
@@ -56,7 +56,7 @@
     width: 100%;
     height: 100%;
 
-    & p{
+    & h2{
         margin-bottom: 30px;
         font-weight: 700;
         font-size: 20px;
@@ -73,20 +73,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-bottom: 28px;
     
     width: 100%;
-
-    & + & {
-        margin-top: 28px;
-    }
-
-    & + .textarea {
-        margin-bottom: -8px;
-    }
-
-    &:last-of-type {
-        margin-bottom: 28px;
-    }
 
     & svg {
         position: absolute;
@@ -126,6 +115,9 @@
     letter-spacing: 0.01em;
     color: var(--text-color);
     align-self: flex-start;
+}
+.textarea {
+    margin-bottom: 20px;
 }
 .form-field__textarea {
     padding: 12px 16px;
