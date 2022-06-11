@@ -502,14 +502,14 @@ body {
 }
 
 .form-field:hover > .form-field__input,
-.form-field:focus > .form-field__input,
+.form-field:focus-within > .form-field__input,
 .form-field:hover > .form-field__textarea,
-.form-field:focus > .form-field__textarea {
+.form-field:focus-within > .form-field__textarea {
   border-color: var(--accent-color);
 }
 
 .form-field:hover > svg,
-.form-field:focus > svg {
+.form-field:focus-within > svg {
   fill: var(--accent-color);
 }
 
