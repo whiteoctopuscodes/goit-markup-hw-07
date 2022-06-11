@@ -950,13 +950,7 @@ input[type="checkbox"]:checked + .check {
 .portfolio-item:focus .image-p{
     transform: translateY(0);
 }
-.image-hover:hover {
 
-}
  .portfolio-image {
      display: block;
-}
-.description {
-}
-.description-category {
 }
